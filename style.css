@@ -162,6 +162,17 @@ flex-direction: row;
 align-items: center;
 padding-top: 2.5em;
 }
+
+.footerTheConteiner{
+  height: 9vh;
+  width: 45.2vw;
+  /* border: solid pink; */
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  
+}
+
 .imageFooterConteiner{
     width: 22vw;
     height: 4vh;
@@ -201,7 +212,7 @@ padding-top: 2.5em;
   color: #FFFFFF;
   background-color: #0C0500;
  width: 33%;
-  height: 4em;
+  height: 3.8em;
    display: flex;
    flex-direction: column;
   justify-content: space-around;
@@ -226,8 +237,8 @@ width: 9em;
 
 
 #firstSectionMain{
- /* height: 80vh; */
-  height: 44vh;
+ /* hei ght: 80vh; */
+  height: 50vh;
   background-color: #CCCCCC; /* colocando um fundo caso a imagem não carreegue de primeira  */
  background: url('images/laranjaAzulMenor.png') no-repeat;
   background-size: 100%;
@@ -251,7 +262,7 @@ width: 9em;
   
  .titlesParagraph{
   color: #fff;
-  font-size: 2.1em;
+  font-size: 2.4em;
   font-weight: bold;
 font-family: Roboto, sans-serif;
 display: flex;
@@ -304,7 +315,7 @@ display: flex;
         height:100%;
         
         opacity:0;
-        border-radius:5px;
+        /* border-radius:5px; */
         box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
         transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
         z-index: -1;
@@ -338,6 +349,11 @@ align-items: center;
 flex-wrap: wrap;
 
 }
+
+.footerTheConteiner{
+  display: block;
+}
+
 .imageFooterConteiner{
   width: 90vw;
   height: 3.2vh;
@@ -354,7 +370,7 @@ flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 87vw;
+  width: 47vw;
     height: 9vh;
 padding-top: 1rem;
 font-size: 0.5em; 
@@ -367,10 +383,15 @@ font-size: 0.5em;
   flex-direction: column;
   align-items: center;
  color: #CCCCCC;
-    background-color: #333333;
+   text-transform: uppercase;
+ background-color: #333333;
     border: none;
     width: 20vw;
+    padding: 0.8em 0em 0.8em 0em;
  }
-
+ .buttonFooter:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
 
 }
